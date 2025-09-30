@@ -5,11 +5,15 @@
     <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
+    <nav>
+        <a href="home">Home</a> |
+        <a href="about">About</a> |
+        <a href="contact">Contact</a>
+    </nav>
+
     <div class="container">
         <h1><%= request.getAttribute("message") %></h1>
-        <p>This is a simple landing page template using Java (Servlet + JSP).</p>
-        <a href="/LandingPageApp/home">Refresh Page</a>
+        <p>Welcome to our Java Landing Page Project.</p>
     </div>
-    <script src="assets/js/script.js"></script>
 </body>
 </html>
